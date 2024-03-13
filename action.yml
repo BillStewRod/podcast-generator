@@ -2,7 +2,7 @@ name: "Podcast Generator"
 author: "Ray Villalobos"
 description: "Generates a feed for a podcast from a YAML file"
 runs: 
-- using: "docker"
+- uses: "docker"
   main: "Dockerfile"
 Branding:
   icon: "podcast"
